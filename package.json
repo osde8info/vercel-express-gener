@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "node ./bin/www",
-    "test": "node ./bin/www"
+    "build": "node --version",
+    "test": "node --version"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
