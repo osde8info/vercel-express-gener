@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "node --version",
+    "build": "node app.js",
     "test": "node --version"
   },
   "dependencies": {
