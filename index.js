@@ -7,10 +7,12 @@
 
 // var app = require('./index2');
 
+var express = require('express');
+
 var app = express();
 
-
 var debug = require('debug')('vercel-express-gener:server');
+
 var http = require('http');
 
 /**
