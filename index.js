@@ -4,7 +4,12 @@
  * Module dependencies.
  */
 
-var app = require('./index2');
+
+// var app = require('./index2');
+
+var app = express();
+
+
 var debug = require('debug')('vercel-express-gener:server');
 var http = require('http');
 
